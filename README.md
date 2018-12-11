@@ -41,7 +41,7 @@
         - 10000
 
 
-Function in java for java!!!
+Function in java for Android!!!
 
 
      public int register_user_mod_push(final String num_register_fcm) throws UnsupportedEncodingException {
