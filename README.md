@@ -35,16 +35,14 @@ mod_fcm is an ejabberd module to send offline messages as PUSH notifications for
 
 
    in Android: in this case is with smack library that you want register the user! is importan to enable offline messages in  ejabberd.yml
-
-
+   
      ## Maximum number of offline messages that users can have:
       max_user_offline_messages:
         - 50000: admin
         - 10000
 
-     
-     
-     
+
+
      public int register_user_mod_push(final String num_register_fcm) throws UnsupportedEncodingException {
             final IQ iq = new IQ("register", "https://fcm.googleapis.com/fcm") {
                 @Override
@@ -71,3 +69,5 @@ mod_fcm is an ejabberd module to send offline messages as PUSH notifications for
                 return 0;
             }
         }
+
+
