@@ -42,6 +42,8 @@ mod_fcm is an ejabberd module to send offline messages as PUSH notifications for
         - 10000
 
 
+Function in java for java!!!
+
 
      public int register_user_mod_push(final String num_register_fcm) throws UnsupportedEncodingException {
             final IQ iq = new IQ("register", "https://fcm.googleapis.com/fcm") {
