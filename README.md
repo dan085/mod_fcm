@@ -3,10 +3,6 @@
 
 mod_fcm is an ejabberd module to send offline messages as PUSH notifications for Android using Google Cloud Messaging 
 
-
-
-   mod_fcm is an ejabberd module to send offline messages as PUSH notifications for Android using Google Cloud Messaging API.
-
    Consider using mod_push which implements XEP-0357 and works with many PUSH services.
 
    This module has nothing to do with XEP-0357.
