@@ -1,9 +1,9 @@
 %% Google Cloud Messaging for Ejabberd
-%% Created: 02/08/2015 by mrDoctorWho & Bimbask
+%% Created: 02/08/2018 by Dverdugo
 %% License: MIT/X11
 
 -module(mod_fcm).
--author("mrDoctorWho").
+
 
 -include("ejabberd.hrl").
 -include("logger.hrl").
